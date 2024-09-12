@@ -22,9 +22,12 @@ class MainActivity : AppCompatActivity() {
         var btn=findViewById<Button>(R.id.button)
         btn.setOnClickListener{
             if(username.text.toString()=="sasank"&&password.text.toString()=="Sasank9133"){
-                Toast.makeText(this,username.text.toString()+" has logged in successfully!!",Toast.LENGTH_LONG)
+                Toast.makeText(this,"You are successfully logged in!!",Toast.LENGTH_LONG).show()
                 var textview1=username.text.toString()
                 btn.text="logged in"
+            }
+            else{
+                Toast.makeText(this,"Wrong password",Toast.LENGTH_SHORT).show()
             }
         }
     }
