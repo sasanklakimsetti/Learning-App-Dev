@@ -19,10 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Page Link"
-include(":app")
-include(":app")
-include(":app")
-include(":app")
+rootProject.name = "Login Page"
 include(":app")
  

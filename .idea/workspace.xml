@@ -10,59 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c509ce3-6917-43c1-ba9c-8c257aaf14dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/deploymentTargetSelector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/migrations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/androidTest/java/com/sasank/basics1/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/java/com/sasank/basics1/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/test/java/com/sasank/basics1/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Android Studio/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kotlin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassesAndObjects.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Functions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/operators.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android Studio/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Android Studio/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android Studio/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Android Studio/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
