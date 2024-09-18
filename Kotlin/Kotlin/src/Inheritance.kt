@@ -67,7 +67,7 @@ open class Mobile(val type:String){
     fun powerOff()=println("Shutting down")
     open fun display()=println("Simple Mobile Display")
 }
-class Oneplus(typeParam:String):Mobile(typeParam){
+class Oneplus(type:String):Mobile(type){
     override fun display()=println("Oneplus display")
     override val name:String="Oneplus"
     override val size:Int=5
