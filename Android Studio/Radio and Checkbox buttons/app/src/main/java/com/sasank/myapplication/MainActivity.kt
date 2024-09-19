@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             if(c.isChecked)h.add("Corn")
             if (d.isChecked)h.add("Mushroom")
             Toast.makeText(this,g+" Pizza with "+h+" toppings",Toast.LENGTH_SHORT).show()
+            e.text="Order placed successfully"
         }
     }
 }
