@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    >
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:layout_marginTop="20dp"
+        />
+    <!--
+        In Android development, the android:ems attribute is used to define the width of an EditText or TextView based on the number of 'M' characters that can fit in it.
+    Here's why it is used:
+    Consistent Width: The ems value specifies how wide the text box should be in terms of the average width of the capital letter "M". This ensures that the width of the text box is consistent across different devices and screen resolutions, making the layout more predictable.
+    Responsive Design: Since ems is based on the width of characters rather than specific pixel values, it provides a responsive way of defining how much space a text field takes up. The text field can automatically adjust based on the size of the text, ensuring it fits well within the layout.
+        -->
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
