@@ -1,4 +1,4 @@
-package com.sasank.myapplication
+package com.sasank.telugutranslator
 
 import android.annotation.SuppressLint
 import android.content.res.Configuration
@@ -18,14 +18,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Set initial welcome message
-        val welcomeTextView: TextView = findViewById(R.id.welcomeTextView)
-        welcomeTextView.text = getString(R.string.hello)
+        val welcomeTextView: TextView = findViewById(R.id.tv1)
+        welcomeTextView.text = getString(R.string.welcome)
     }
 
     // Method to change the language
     fun changeLanguage(view: View) {
         if (isEnglish) {
-            setLocale("hi") // Switch to Hindi
+            setLocale("te") // Switch to Hindi
         } else {
             setLocale("en") // Switch to English
         }
