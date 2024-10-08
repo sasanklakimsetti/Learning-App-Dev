@@ -1,0 +1,29 @@
+Snackbar: a class which helps in adding functionalities to a popup message
+
+Bundle is a class which helps to store the previous message when we refresh/ undo
+
+AppCompatActivity is a class which is used to connect an xml and kt file.
+
+We actually connect the xml and kt file using a id of the kt file class to the xml file. But if we use DataBinding, then there is no need to using the id to connect files.
+
+lateinit : initialize later i.e. if any variable is declared with this keyword, the variable is just declared but not initialized and can be initialised later
+
+savedInstanceState: comes under the Bundle class
+savedInstanceState: Bundle? -> before this the Bundle class is empty and nothing is stored in previous
+
+inflate: helps to bind the xml file with kt file
+layoutInflater: connecting the layout used in xml file with kt file
+
+setContentView: the layout/ view created inside  the xml file will display.
+setContentView(binding.root): show the view from the bottom to top
+
+Snackbar.make(binding.root,text,duration): creates a snackbar instance with some message at the bottom of the screen. 'mae' property comes under the snackbar class
+
+Snackbar.setTextColor(Color.parseColor()): sets the color to the text of the snackbar
+
+snackbar.setAction("UNDO") {
+                // Action to perform on undo
+                Snackbar.make(binding.root, "Action undone", Snackbar.LENGTH_SHORT).show()
+            }.setActionTextColor(Color.parseColor("#00FF00"))
+
+* sets an action the button inside the snackbar, .make() will describe what needs to be displayed/ popup after clicking on the button inside the snackbar and customising the color of the text inside the snackbar with setActionTextColor()

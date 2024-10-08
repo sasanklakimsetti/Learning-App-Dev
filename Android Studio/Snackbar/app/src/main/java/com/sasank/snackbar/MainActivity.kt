@@ -1,4 +1,4 @@
-package com.example.snackbar
+package com.sasank.snackbar
 
 import android.graphics.Color
 import android.os.Bundle

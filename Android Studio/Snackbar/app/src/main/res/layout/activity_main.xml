@@ -16,6 +16,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/primary_text_dark"
+        android:hapticFeedbackEnabled="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
