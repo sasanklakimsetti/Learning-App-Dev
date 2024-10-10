@@ -1,1 +1,5 @@
 Intent: it is used to navigate between pages
+
+Implicit Intent is used to move to other app/ function in other app
+
+Uri: Uniform Resource Identifier
