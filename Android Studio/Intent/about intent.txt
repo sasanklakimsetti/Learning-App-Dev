@@ -1,0 +1,1 @@
+Intent: it is used to navigate between pages
