@@ -6,7 +6,6 @@
         android:id="@+id/action_settings"
         android:title="Settings"
         android:orderInCategory="100"
-        android:iconTint="@color/black"
         app:showAsAction="never"
         />
     <!-- Menu item for search with action display behaviour -->
@@ -14,7 +13,6 @@
         android:id="@+id/action_search"
         android:title="Search"
         android:icon="@android:drawable/ic_menu_search"
-        android:iconTint="@color/black"
         app:showAsAction="ifRoom"
         />
 </menu>
