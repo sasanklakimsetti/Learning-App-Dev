@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Feedback Form"
+        android:layout_marginTop="5sp"
         android:textSize="40sp"
         />
     <EditText
@@ -112,6 +113,14 @@
         android:id="@+id/submitBtn"
         android:textSize="15sp"
         />
-
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Form"
+        android:textSize="22sp"
+        android:visibility="gone"
+        android:id="@+id/viewBtn"
+        />
+    <!-- initially view form button is hidden, only appears when the submit button is clicked-->
 
 </LinearLayout>
