@@ -16,10 +16,12 @@ class MainActivity : AppCompatActivity() {
     private lateinit var resultTextView: TextView
     val requestPermissionLauncher=registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()){
         permissions->
-        val cameraPermissionGranted=permissions[Manifest.permission.CAMERA]
-        val locationPermissionGranted=permissions[Manifest.permission.ACCESS_FINE_LOCATION]
-        if (locationPermissionGranted == true && cameraPermissionGranted == true){
-            resultTextView.text="Permissions Granted"
+        val cameraPermissionGranted=permissions[Manifest.permission.CAMERA]?:false
+        val locationPermissionGranted=permissions[Manifest.permission.ACCESS_FINE_LOCATION]?:false
+        val wifiStatePermissionGranted=permissions[Manifest.permission.ACCESS_WIFI_STATE]?:false
+        val changeWifiStatePermissionGranted=permissions[Manifest.permission.CHANGE_WIFI_STATE]?:false
+        if (locationPermissionGranted && cameraPermissionGranted && wifiStatePermissionGranted && changeWifiStatePermissionGranted){
+            resultTextView.text="All Permissions Granted including WiFi"
             openAppChooser()
         } else{
             resultTextView.text="Permissions denied"
@@ -41,7 +43,9 @@ class MainActivity : AppCompatActivity() {
         requestPermissionLauncher.launch(
             arrayOf(
                 Manifest.permission.CAMERA,
-                Manifest.permission.ACCESS_FINE_LOCATION
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_WIFI_STATE,
+                Manifest.permission.CHANGE_WIFI_STATE
             )
         )
     }
