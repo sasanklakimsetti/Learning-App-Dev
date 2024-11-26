@@ -1,0 +1,1 @@
+Write an android program to demonstrate how to create a custom dialog box with a red background. The dialog should include a button to close it and should display custom message or additional widgets.
