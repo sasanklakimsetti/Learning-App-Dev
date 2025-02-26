@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/black"
+        app:showAsAction="ifRoom"></item>
+
+    <item android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="never"></item>
+
+    <item android:id="@+id/about"
+        android:title="About Us"
+        app:showAsAction="never">
+    </item>
+
+    <!-- menu inside a menu option-->
+    <item android:id="@+id/share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share"
+        android:iconTint="@color/black"
+        >
+        <menu>
+            <item android:id="@+id/facebook"
+                android:title="Facebook"></item>
+            <item android:id="@+id/whatsapp"
+                android:title="WhatsApp"></item>
+            <item android:id="@+id/instagram"
+                android:title="Instagram"></item>
+        </menu>
+    </item>
+
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never"></item>
+</menu>
