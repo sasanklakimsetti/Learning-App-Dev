@@ -1,0 +1,6 @@
+for toast with emoji: same as normal toast, to get the emoji click Win + . and select required emoji
+
+
+for toast with custom image/ icon:
+res->drawable->new->vector resource file
+create toast_item.xml: res->layout->layout resource fie
