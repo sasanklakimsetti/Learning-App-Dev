@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--numStars means total no.of stars
+    rating means no.of stars to be set default and it will be displayed to user when opened
+    step size specifies the rating on click i.e. first click on star will be given 0.5 star and next click on same star will be given 1 star (remaining 0.5 star)
+    if we want to one rating, we have click two times on the star. no. of clicks will depend on step size
+    progressBackgroundTint means color of star before click
+    progressTint means color of star after click
+    scaleX and scaleY means the percentage of rating to be shown based on x and y axes i.e. we used scaleX and scaleY as 0.6 that means 60% of original rating bar will be displayed
+    -->
+    <RatingBar
+        android:id="@+id/ratingbar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="0.5"
+        android:progressBackgroundTint="@color/black"
+        android:progressTint="@android:color/holo_orange_light"
+        android:scaleX="0.6"
+        android:scaleY="0.6"
+        ></RatingBar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="0.5 is the lowest and 5 is the highest"
+        android:layout_marginLeft="85dp"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="75dp"
+        android:text="Submit Rating"
+        android:textSize="12sp"
+        ></Button>
+</LinearLayout>
