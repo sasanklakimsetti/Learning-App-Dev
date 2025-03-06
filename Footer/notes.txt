@@ -1,9 +1,0 @@
-to create bottom_navigation_bar.xml: 
-create menu folder in res-> create
-background_navigation_bar.xml
-
-to add new colors: res->values->colors.xml
-
-to create icons: res->drawable->right click->new->image asset
-
-to create fragments: right click on app->new->fragments->fragment(blank)
