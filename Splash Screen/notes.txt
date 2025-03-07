@@ -1,0 +1,12 @@
+Splash Screen: it is the first screen of an app which appears when we open an app for a specific amount of time we set.
+
+We need to create a new activity SplashScreen by right clicking on layout->new->activity->empty views
+
+Add any image into drawable to show on the start of application
+
+
+go to Manifest file-> cut the present intent-filter and paste it in  activity where the name is SplashScreen and set exported to true
+
+Just make changes in SplashScreen.kt and activity_splash_screen.xml and Manifest
+
+No need of any change in activity_main.xml and MainAcitivity.kt
