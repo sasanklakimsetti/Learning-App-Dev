@@ -1,0 +1,10 @@
+Why use pending intents?
+1. Delayed Execution: Notification, Alaram
+2. Execute on behalf of your app: when app is closed but the pending intent is still running, ex: alarm
+3. Used for background operations: -> fetching the data from server
+							   -> triggering an alarm
+
+types of pending intents:
+1. PendingIntent.getActivity(): used to start an activity at a later time. ex: opening an app when user taps on notification
+2. PendingIntent.getService(): used to start service in background at a later time. ex:- fetching data from server
+3. PendingIntent.getBroadcast(): used to send broadcast later. ex: triggering alarms or reminders

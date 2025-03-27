@@ -1,0 +1,7 @@
+Alarm Manager:
+
+Make XML with Textview and buttons
+
+Go to build.gradle.kts(module:app) and add buildFeatures down to the buildTypes. After that, click on Sync now
+
+Create a new Kotlin Class: kotlin+java->com.sasank.alarmmanager-> right click-> Kotlin class/file
