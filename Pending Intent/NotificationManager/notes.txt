@@ -1,0 +1,5 @@
+Design activity_main.xml file using two EditText, DatePicker, TimePicker and button
+
+Create Notification.kt in com.sasank.notificationmanager folder
+
+Add Permissions in AndroidManifest.xml for posting notifications

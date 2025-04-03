@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NotificationManager</string>
+    <string name="message">TO DO</string>
+    <string name="scheduleNotification">Schedule Notification</string>
+</resources>
