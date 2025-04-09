@@ -1,0 +1,1 @@
+customizing a view present in android studio according to the dev's need. We need to create an xml file for the customization of the view like EditText,TextView, etc
