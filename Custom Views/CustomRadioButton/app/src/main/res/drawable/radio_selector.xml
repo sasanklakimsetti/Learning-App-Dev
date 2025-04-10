@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--functionality when radio button is selected-->
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/radio_selected"></item>
+
+    <!--functionality when radio button is not selected-->
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/radio_normal"></item>
+
+</selector>
