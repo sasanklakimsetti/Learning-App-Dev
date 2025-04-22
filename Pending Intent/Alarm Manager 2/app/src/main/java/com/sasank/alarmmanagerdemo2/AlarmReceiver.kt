@@ -8,19 +8,20 @@ import android.content.Intent
 import androidx.annotation.RequiresPermission
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import kotlin.jvm.java
 
 
 class AlarmReceiver :BroadcastReceiver() {
     @RequiresPermission(Manifest.permission.POST_NOTIFICATIONS)
     override fun onReceive(context: Context?, intent: Intent?) {
-        val intent= Intent(context, DestinationActivity::class.java)
+        val intent= Intent(context, ActivityDestination::class.java)
         intent!!.flags= Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         val pendingIntent= PendingIntent.getActivity(context,0,intent, PendingIntent.FLAG_IMMUTABLE)
 
-        val builder= NotificationCompat.Builder(context!!,"foxandroid")
+        val builder= NotificationCompat.Builder(context!!,"alarmmangerdemo")
             .setSmallIcon(R.drawable.ic_launcher_background)
             .setContentTitle("Hey, it's time")
-            .setContentText("Time ayindhi legu")
+            .setContentText("Wake up")
             .setAutoCancel(true)
             .setDefaults(NotificationCompat.DEFAULT_ALL)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -29,5 +30,4 @@ class AlarmReceiver :BroadcastReceiver() {
         val NotificationManager= NotificationManagerCompat.from(context)
         NotificationManager.notify(123,builder.build())
     }
-
 }
