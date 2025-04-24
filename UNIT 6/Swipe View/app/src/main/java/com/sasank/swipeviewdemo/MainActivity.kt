@@ -1,6 +1,5 @@
 package com.sasank.swipeviewdemo
 
-import android.graphics.pdf.PdfDocument
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
