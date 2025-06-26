@@ -20,8 +20,9 @@ class MainActivity : AppCompatActivity() {
         val locationPermissionGranted=permissions[Manifest.permission.ACCESS_FINE_LOCATION]?:false
         val wifiStatePermissionGranted=permissions[Manifest.permission.ACCESS_WIFI_STATE]?:false
         val changeWifiStatePermissionGranted=permissions[Manifest.permission.CHANGE_WIFI_STATE]?:false
-        if (locationPermissionGranted && cameraPermissionGranted && wifiStatePermissionGranted && changeWifiStatePermissionGranted){
-            resultTextView.text="All Permissions Granted including WiFi"
+        val giveStorage=permissions[Manifest.permission.READ_EXTERNAL_STORAGE]?:false
+        if (locationPermissionGranted && cameraPermissionGranted && wifiStatePermissionGranted && changeWifiStatePermissionGranted&&giveStorage){
+            resultTextView.text="All Permissions Granted including WiFi and Storage"
             openAppChooser()
         } else{
             resultTextView.text="Permissions denied"
@@ -45,7 +46,8 @@ class MainActivity : AppCompatActivity() {
                 Manifest.permission.CAMERA,
                 Manifest.permission.ACCESS_FINE_LOCATION,
                 Manifest.permission.ACCESS_WIFI_STATE,
-                Manifest.permission.CHANGE_WIFI_STATE
+                Manifest.permission.CHANGE_WIFI_STATE,
+                Manifest.permission.READ_EXTERNAL_STORAGE
             )
         )
     }
